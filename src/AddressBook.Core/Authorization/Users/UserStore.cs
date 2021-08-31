@@ -1,7 +1,6 @@
 using Abp.Authorization.Users;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
-using Abp.Linq;
 using Abp.Organizations;
 using AddressBook.Authorization.Roles;
 

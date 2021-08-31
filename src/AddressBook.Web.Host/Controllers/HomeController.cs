@@ -4,7 +4,6 @@ using Abp;
 using Abp.Extensions;
 using Abp.Notifications;
 using Abp.Timing;
-using Abp.Web.Security.AntiForgery;
 using AddressBook.Controllers;
 
 namespace AddressBook.Web.Host.Controllers

@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
-using Abp.Authorization.Roles;
 using Abp.AutoMapper;
-using AddressBook.Authorization.Roles;
 
 namespace AddressBook.Contacts.Dto
 {

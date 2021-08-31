@@ -1,8 +1,6 @@
-using System.Threading.Tasks;
 using Abp.Web.Security.AntiForgery;
 using Microsoft.AspNetCore.Antiforgery;
 using AddressBook.Controllers;
-using Microsoft.AspNetCore.Mvc;
 
 namespace AddressBook.Web.Host.Controllers
 {
