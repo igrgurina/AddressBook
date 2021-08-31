@@ -14,6 +14,8 @@ namespace AddressBook.Contacts
 {
     public class Contact : FullAuditedEntity
     {
+        public const int MaxNameLength = 32;
+
         public virtual string Name { get; protected set; }
 
         [DataType(DataType.Date)]

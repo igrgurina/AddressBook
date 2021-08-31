@@ -28,5 +28,6 @@
     <PackageReference Include="Abp.AspNetCore" Version="6.4.0" />
     <PackageReference Include="Abp.ZeroCore" Version="6.4.0" />
     <PackageReference Include="Abp.AspNetCore.SignalR" Version="6.4.0" />
+    <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="4.4.0" />
   </ItemGroup>
 </Project>

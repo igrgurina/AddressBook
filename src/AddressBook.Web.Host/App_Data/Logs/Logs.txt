@@ -1,0 +1,662 @@
+DEBUG 2021-08-31 19:43:31,184 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-08-31 19:43:31,502 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-08-31 19:43:31,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.Web.Host.Startup.AddressBookWebHostModule, AddressBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.AddressBookWebCoreModule, AddressBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.AddressBookApplicationModule, AddressBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.AddressBookCoreModule, AddressBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.EntityFrameworkCore.AddressBookEntityFrameworkModule, AddressBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:31,518 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-08-31 19:43:31,669 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:43:31,669 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:43:31,669 [1    ] o.Configuration.LanguageManagementConfig - Converted AddressBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:43:31,669 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:43:32,070 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AddressBook.EntityFrameworkCore.AddressBookDbContext, AddressBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:43:32,188 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-08-31 19:43:32,245 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-08-31 19:43:32,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-08-31 19:43:32,326 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AddressBook
+DEBUG 2021-08-31 19:43:32,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-08-31 19:43:32,365 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-08-31 19:43:32,366 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AddressBook.MultiTenancy.Tenant, AddressBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AddressBook.Authorization.Users.User, AddressBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-08-31 19:43:32,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2021-08-31 19:43:32,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-08-31 19:43:32,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Users.Dto.CreateUserDto
+DEBUG 2021-08-31 19:43:32,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Users.Dto.UserDto
+DEBUG 2021-08-31 19:43:32,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-08-31 19:43:32,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-08-31 19:43:32,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Roles.Dto.PermissionDto
+DEBUG 2021-08-31 19:43:32,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-08-31 19:43:32,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.MultiTenancy.Dto.TenantDto
+DEBUG 2021-08-31 19:43:32,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Contacts.Dto.ContactDto
+WARN  2021-08-31 19:43:33,394 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2021-08-31 19:43:33,525 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:34,089 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2021-08-31 19:43:34,233 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?' (DbType = Int64), @p8='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpEditions" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "IsDeleted", "LastModificationTime", "LastModifierUserId", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,303 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,330 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,335 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,338 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,340 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,343 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,345 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,347 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,350 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,352 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,354 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,357 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,359 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,362 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,364 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,367 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,370 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,372 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,375 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,377 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,380 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,383 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,385 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,388 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,391 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:43:34,394 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpLanguages" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "DisplayName", "Icon", "IsDeleted", "IsDisabled", "LastModificationTime", "LastModifierUserId", "Name", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,406 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" IS NULL) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2021-08-31 19:43:34,466 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?' (DbType = Int64), @p12='?', @p13='?', @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpRoles" ("ConcurrencyStamp", "CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "Description", "DisplayName", "IsDefault", "IsDeleted", "IsStatic", "LastModificationTime", "LastModifierUserId", "Name", "NormalizedName", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,487 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" IS NULL) AND (a."RoleId" = @__adminRoleForHost_Id_0))
+INFO  2021-08-31 19:43:34,522 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?', @p3='?' (DbType = Boolean), @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int64), @p9='?', @p10='?' (DbType = Boolean), @p11='?', @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime), @p15='?' (DbType = Int64), @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime), @p22='?' (DbType = Int64), @p23='?', @p24='?' (DbType = Boolean), @p25='?', @p26='?' (DbType = Int32), @p27='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13)
+RETURNING "Id";
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p14, @p15, @p16, @p17, @p18, @p19, @p20)
+RETURNING "Id";
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p21, @p22, @p23, @p24, @p25, @p26, @p27)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,538 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" IS NULL) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2021-08-31 19:43:34,596 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime), @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?' (DbType = Int32), @p27='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUsers" ("AccessFailedCount", "AuthenticationSource", "ConcurrencyStamp", "CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "EmailAddress", "EmailConfirmationCode", "IsActive", "IsDeleted", "IsEmailConfirmed", "IsLockoutEnabled", "IsPhoneNumberConfirmed", "IsTwoFactorEnabled", "LastModificationTime", "LastModifierUserId", "LockoutEndDateUtc", "Name", "NormalizedEmailAddress", "NormalizedUserName", "Password", "PasswordResetCode", "PhoneNumber", "SecurityStamp", "Surname", "TenantId", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,622 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."TenantId", a."UserId", a."UserLinkId", a."UserName"
+FROM "AbpUserAccounts" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND ((a."TenantId" IS NULL) AND (a."UserId" = @__eventData_Entity_Id_1))
+LIMIT 1
+INFO  2021-08-31 19:43:34,647 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserAccounts" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "EmailAddress", "IsDeleted", "LastModificationTime", "LastModifierUserId", "TenantId", "UserId", "UserLinkId", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,669 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserRoles" ("CreationTime", "CreatorUserId", "RoleId", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,682 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-08-31 19:43:34,702 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime), @p3='?' (DbType = Int64), @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpSettings" ("CreationTime", "CreatorUserId", "LastModificationTime", "LastModifierUserId", "Name", "TenantId", "UserId", "Value")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,708 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-08-31 19:43:34,712 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime), @p3='?' (DbType = Int64), @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpSettings" ("CreationTime", "CreatorUserId", "LastModificationTime", "LastModifierUserId", "Name", "TenantId", "UserId", "Value")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,715 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-08-31 19:43:34,719 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime), @p3='?' (DbType = Int64), @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpSettings" ("CreationTime", "CreatorUserId", "LastModificationTime", "LastModifierUserId", "Name", "TenantId", "UserId", "Value")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,732 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2021-08-31 19:43:34,735 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2021-08-31 19:43:34,765 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?' (DbType = Int64), @p10='?', @p11='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpTenants" ("ConnectionString", "CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "EditionId", "IsActive", "IsDeleted", "LastModificationTime", "LastModifierUserId", "Name", "TenancyName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,781 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2021-08-31 19:43:34,786 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?' (DbType = Int64), @p12='?', @p13='?', @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpRoles" ("ConcurrencyStamp", "CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "Description", "DisplayName", "IsDefault", "IsDeleted", "IsStatic", "LastModificationTime", "LastModifierUserId", "Name", "NormalizedName", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,791 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" = @___tenantId_0) AND (a."RoleId" = @__adminRole_Id_1))
+INFO  2021-08-31 19:43:34,797 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?', @p3='?' (DbType = Boolean), @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int64), @p9='?', @p10='?' (DbType = Boolean), @p11='?', @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime), @p15='?' (DbType = Int64), @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?' (DbType = Int32), @p20='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13)
+RETURNING "Id";
+INSERT INTO "AbpPermissions" ("CreationTime", "CreatorUserId", "Discriminator", "IsGranted", "Name", "RoleId", "TenantId")
+VALUES (@p14, @p15, @p16, @p17, @p18, @p19, @p20)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,806 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2021-08-31 19:43:34,812 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime), @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?' (DbType = Int32), @p27='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUsers" ("AccessFailedCount", "AuthenticationSource", "ConcurrencyStamp", "CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "EmailAddress", "EmailConfirmationCode", "IsActive", "IsDeleted", "IsEmailConfirmed", "IsLockoutEnabled", "IsPhoneNumberConfirmed", "IsTwoFactorEnabled", "LastModificationTime", "LastModifierUserId", "LockoutEndDateUtc", "Name", "NormalizedEmailAddress", "NormalizedUserName", "Password", "PasswordResetCode", "PhoneNumber", "SecurityStamp", "Surname", "TenantId", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,814 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."TenantId", a."UserId", a."UserLinkId", a."UserName"
+FROM "AbpUserAccounts" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND ((a."TenantId" = @__eventData_Entity_TenantId_0) AND (a."UserId" = @__eventData_Entity_Id_1))
+LIMIT 1
+INFO  2021-08-31 19:43:34,818 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserAccounts" ("CreationTime", "CreatorUserId", "DeleterUserId", "DeletionTime", "EmailAddress", "IsDeleted", "LastModificationTime", "LastModifierUserId", "TenantId", "UserId", "UserLinkId", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,828 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserRoles" ("CreationTime", "CreatorUserId", "RoleId", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+INFO  2021-08-31 19:43:34,867 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:34,889 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" IS NULL))
+INFO  2021-08-31 19:43:34,921 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:34,931 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" IS NULL)) AND ((a."UserId" IS NULL) AND (a."TenantId" IS NULL))
+INFO  2021-08-31 19:43:34,940 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2021-08-31 19:43:35,350 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ivang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-08-31 19:43:35,396 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {cac78de8-6eb0-4634-b7ca-96d398ac6342} with creation date 2021-08-31 17:43:35Z, activation date 2021-08-31 17:43:35Z, and expiration date 2021-11-29 17:43:35Z.
+INFO  2021-08-31 19:43:35,412 [1    ] ion.Repositories.FileSystemXmlRepository - Writing data to file 'C:\Users\ivang\AppData\Local\ASP.NET\DataProtection-Keys\key-cac78de8-6eb0-4634-b7ca-96d398ac6342.xml'.
+INFO  2021-08-31 19:43:35,449 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2021-08-31 19:43:35,659 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AddressBook.Web.Host.Controllers.HomeController.Index (AddressBook.Web.Host)'
+INFO  2021-08-31 19:43:35,688 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AddressBook.Web.Host.Controllers.HomeController (AddressBook.Web.Host).
+INFO  2021-08-31 19:43:35,713 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:35,772 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (13ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2021-08-31 19:43:35,809 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-08-31 19:43:35,816 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action AddressBook.Web.Host.Controllers.HomeController.Index (AddressBook.Web.Host) in 123.2031ms
+INFO  2021-08-31 19:43:35,818 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AddressBook.Web.Host.Controllers.HomeController.Index (AddressBook.Web.Host)'
+INFO  2021-08-31 19:43:35,831 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - -
+INFO  2021-08-31 19:43:35,835 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 388.0991ms
+INFO  2021-08-31 19:43:35,857 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - - - 301 - - 27.4244ms
+INFO  2021-08-31 19:43:35,860 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2021-08-31 19:43:35,916 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 55.5700ms
+INFO  2021-08-31 19:43:35,950 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2021-08-31 19:43:35,951 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - -
+INFO  2021-08-31 19:43:35,953 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - -
+INFO  2021-08-31 19:43:35,954 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2021-08-31 19:43:35,956 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2021-08-31 19:43:35,980 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2021-08-31 19:43:35,982 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2021-08-31 19:43:35,984 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\ivang\OneDrive\Dokumenti\CloudSec\6.4.0\aspnet-core\src\AddressBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2021-08-31 19:43:35,986 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\ivang\OneDrive\Dokumenti\CloudSec\6.4.0\aspnet-core\src\AddressBook.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2021-08-31 19:43:35,988 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 application/javascript 35.3672ms
+INFO  2021-08-31 19:43:35,989 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 application/javascript 35.5481ms
+INFO  2021-08-31 19:43:35,992 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2021-08-31 19:43:35,993 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 141841 text/css 43.7931ms
+INFO  2021-08-31 19:43:35,998 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - - 200 307021 application/javascript 45.4209ms
+INFO  2021-08-31 19:43:36,008 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - - 200 974176 application/javascript 56.6773ms
+INFO  2021-08-31 19:43:36,225 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2021-08-31 19:43:36,228 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AddressBook.Web.Host.Controllers.AntiForgeryController.SetCookie (AddressBook.Web.Host)'
+INFO  2021-08-31 19:43:36,233 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AddressBook.Web.Host.Controllers.AntiForgeryController (AddressBook.Web.Host).
+INFO  2021-08-31 19:43:36,251 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:36,253 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2021-08-31 19:43:36,262 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2021-08-31 19:43:36,268 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-08-31 19:43:36,290 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - -
+INFO  2021-08-31 19:43:36,293 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-08-31 19:43:36,295 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - - 200 628 image/png 4.1812ms
+INFO  2021-08-31 19:43:36,357 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action AddressBook.Web.Host.Controllers.AntiForgeryController.SetCookie (AddressBook.Web.Host) in 122.2304ms
+INFO  2021-08-31 19:43:36,358 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AddressBook.Web.Host.Controllers.AntiForgeryController.SetCookie (AddressBook.Web.Host)'
+INFO  2021-08-31 19:43:36,360 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 135.4203ms
+INFO  2021-08-31 19:43:36,370 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.8672ms
+INFO  2021-08-31 19:43:37,382 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:37,394 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:43:42,407 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:42,410 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:43:47,421 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:47,423 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:43:52,437 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:52,439 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:43:57,453 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:43:57,455 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:44:02,457 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:02,459 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:44:07,470 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:07,472 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+DEBUG 2021-08-31 19:44:38,183 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-08-31 19:44:38,263 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-08-31 19:44:38,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.Web.Host.Startup.AddressBookWebHostModule, AddressBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.AddressBookWebCoreModule, AddressBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.AddressBookApplicationModule, AddressBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.AddressBookCoreModule, AddressBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AddressBook.EntityFrameworkCore.AddressBookEntityFrameworkModule, AddressBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,282 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-08-31 19:44:38,323 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:44:38,323 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:44:38,323 [1    ] o.Configuration.LanguageManagementConfig - Converted AddressBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:44:38,323 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-08-31 19:44:38,580 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AddressBook.EntityFrameworkCore.AddressBookDbContext, AddressBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-08-31 19:44:38,713 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-08-31 19:44:38,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-08-31 19:44:38,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-08-31 19:44:38,839 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AddressBook
+DEBUG 2021-08-31 19:44:38,870 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-08-31 19:44:38,875 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-08-31 19:44:38,877 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AddressBook.MultiTenancy.Tenant, AddressBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AddressBook.Authorization.Users.User, AddressBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-08-31 19:44:38,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2021-08-31 19:44:38,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-08-31 19:44:38,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Users.Dto.CreateUserDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Users.Dto.UserDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Roles.Dto.PermissionDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.MultiTenancy.Dto.TenantDto
+DEBUG 2021-08-31 19:44:38,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AddressBook.Contacts.Dto.ContactDto
+WARN  2021-08-31 19:44:39,774 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2021-08-31 19:44:39,906 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:40,466 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2021-08-31 19:44:40,537 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,541 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,542 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,544 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,545 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,546 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,548 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,549 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,550 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,552 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,553 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,554 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,556 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE (a."TenantId" IS NULL) AND (a."Name" = @__language_Name_1))
+INFO  2021-08-31 19:44:40,564 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" IS NULL) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2021-08-31 19:44:40,604 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" IS NULL) AND (a."RoleId" = @__adminRoleForHost_Id_0))
+INFO  2021-08-31 19:44:40,613 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" IS NULL) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2021-08-31 19:44:40,672 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-08-31 19:44:40,673 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-08-31 19:44:40,675 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND (a."TenantId" IS NULL)) AND (a."UserId" IS NULL))
+INFO  2021-08-31 19:44:40,726 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2021-08-31 19:44:40,749 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2021-08-31 19:44:40,752 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" = @___tenantId_0) AND (a."RoleId" = @__adminRole_Id_1))
+INFO  2021-08-31 19:44:40,758 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2021-08-31 19:44:40,798 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:40,831 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR (a."TenantId" IS NULL))
+INFO  2021-08-31 19:44:40,879 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:40,889 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR (a."TenantId" IS NULL)) AND ((a."UserId" IS NULL) AND (a."TenantId" IS NULL))
+INFO  2021-08-31 19:44:40,910 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2021-08-31 19:44:41,085 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ivang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-08-31 19:44:41,129 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2021-08-31 19:44:41,196 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AddressBook.Web.Host.Controllers.HomeController.Index (AddressBook.Web.Host)'
+INFO  2021-08-31 19:44:41,224 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AddressBook.Web.Host.Controllers.HomeController (AddressBook.Web.Host).
+INFO  2021-08-31 19:44:41,250 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:41,362 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2021-08-31 19:44:41,413 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-08-31 19:44:41,418 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action AddressBook.Web.Host.Controllers.HomeController.Index (AddressBook.Web.Host) in 189.5001ms
+INFO  2021-08-31 19:44:41,420 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AddressBook.Web.Host.Controllers.HomeController.Index (AddressBook.Web.Host)'
+INFO  2021-08-31 19:44:41,432 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2021-08-31 19:44:41,436 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 307.1120ms
+INFO  2021-08-31 19:44:41,512 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 79.6343ms
+INFO  2021-08-31 19:44:41,779 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2021-08-31 19:44:41,784 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AddressBook.Web.Host.Controllers.AntiForgeryController.SetCookie (AddressBook.Web.Host)'
+INFO  2021-08-31 19:44:41,791 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AddressBook.Web.Host.Controllers.AntiForgeryController (AddressBook.Web.Host).
+INFO  2021-08-31 19:44:41,802 [12   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:41,808 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2021-08-31 19:44:41,813 [20   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2021-08-31 19:44:41,821 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-08-31 19:44:41,910 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action AddressBook.Web.Host.Controllers.AntiForgeryController.SetCookie (AddressBook.Web.Host) in 117.4784ms
+INFO  2021-08-31 19:44:41,911 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AddressBook.Web.Host.Controllers.AntiForgeryController.SetCookie (AddressBook.Web.Host)'
+INFO  2021-08-31 19:44:41,912 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 134.2480ms
+INFO  2021-08-31 19:44:41,924 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.8810ms
+INFO  2021-08-31 19:44:43,896 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:43,908 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:44:48,926 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:48,928 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:44:53,937 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:53,939 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:44:58,952 [8    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:44:58,954 [8    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:45:03,968 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:45:03,970 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:45:08,986 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:45:08,989 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2021-08-31 19:45:14,002 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 5.0.8 initialized 'AddressBookDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+INFO  2021-08-31 19:45:14,004 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1

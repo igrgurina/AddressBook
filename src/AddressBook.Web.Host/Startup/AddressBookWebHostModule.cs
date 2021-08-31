@@ -1,13 +1,15 @@
-﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using AddressBook.Configuration;
+using Volo.Abp.EventBus.RabbitMq;
 
 namespace AddressBook.Web.Host.Startup
 {
     [DependsOn(
        typeof(AddressBookWebCoreModule))]
+    [DependsOn(typeof(AbpEventBusRabbitMqModule))]
     public class AddressBookWebHostModule: AbpModule
     {
         private readonly IWebHostEnvironment _env;
