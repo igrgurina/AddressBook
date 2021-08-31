@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Abp.Zero.EntityFrameworkCore;
 using AddressBook.Authorization.Roles;
 using AddressBook.Authorization.Users;
+using AddressBook.Contacts;
 using AddressBook.MultiTenancy;
 
 namespace AddressBook.EntityFrameworkCore
@@ -10,6 +11,8 @@ namespace AddressBook.EntityFrameworkCore
     public class AddressBookDbContext : AbpZeroDbContext<Tenant, Role, User, AddressBookDbContext>
     {
         /* Define a DbSet for each entity of the application */
+        public virtual DbSet<Contact> Contacts { get; set; }
+        public virtual DbSet<PhoneNumber> PhoneNumbers { get; set; }
 
         public AddressBookDbContext(DbContextOptions<AddressBookDbContext> options)
             : base(options)
